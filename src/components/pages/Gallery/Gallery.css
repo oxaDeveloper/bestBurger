@@ -1,0 +1,95 @@
+.gallery {
+    background: linear-gradient(29.2deg, #fff 50%, #000 50%);
+    height: 100vh;
+}
+
+.gallery > a > img {
+    width: 230px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+.div {
+    display: grid;
+    padding: 5px;
+    grid-gap: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+
+.grid {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    margin: 1px;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.grid:hover {
+    box-shadow: 0 0 30px black;
+}
+
+.com1 {
+    background-image: url("./img/img2.png");
+    background-size: 260px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    height: 320px;
+}
+
+.com2 {
+    background-image: url("./img/img4.png");
+    background-size: 260px;
+    background-position: center;
+}
+
+.com3 {
+    background-image: url("./img/img8.png");
+    background-size: 550px;
+    background-position: center;
+    grid-column: 3 / span 2;
+    grid-row: 1;
+}
+
+.com4 {
+    background-image: url("./img/img6.png");
+    background-size: 550px;
+    background-position: center;
+    grid-column: 2 / span 2;
+    grid-row: 2;
+}
+
+.com5 {
+    background-image: url("./img/img1.png");
+    background-size: 260px;
+    background-position: center;
+    grid-column: 4;
+    grid-row: 2 / span 2;
+    height: 320px;
+}
+
+.com6 {
+    background-image: url("./img/img5.png");
+    background-size: 530px;
+    background-position: top;
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+    height: 320px;
+}
+
+.com7 {
+    background-image:  url("./img/img3.png");
+    background-size: 260px;
+    background-position: center;
+}
+
+.com8 {
+    background-image:  url("./img/img7.png");
+    background-size: 550px;
+    background-position: center;
+    grid-column: 3 / span 2;
+    grid-row: 4
+}

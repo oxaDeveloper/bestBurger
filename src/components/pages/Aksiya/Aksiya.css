@@ -1,0 +1,63 @@
+.aksiya {
+    padding: 30px 0;
+    border-bottom: 1px solid grey;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.aksiya h3 {
+    color: rgba(37, 37, 37, 0.7);
+    font-size: 30px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+  
+.aksiya h1 {
+    font-size: 40px;
+    color: #252525;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+  
+.aksiya p {
+    font-size: 18px;
+    color: #8b8b8b;
+    font-weight: 300;
+}
+  
+.aksiya__img {
+    width: 100%;
+    overflow: hidden;
+}
+  
+.aksiya__img img {
+    width: 100%;
+}
+
+.aksiya_container {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.aksiya_row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aksiya_col-6 {
+    width: 50%;
+}
+
+.aksiya_p-25 {
+    padding: 45px;
+}
+
+.logo_ak > a > img {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 30px;
+}

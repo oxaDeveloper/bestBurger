@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+:root {
+    --clr: #222327;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        width: 1200px;
+        padding-left: 50px;
+    }
+
+    .navbar__text {
+        width: 1100px;
+    }
+
+    .about__img {
+        width: 550px;
+    }
+
+    .about__img img {
+        margin-left: 50px;
+        padding-right: 50px;
+    }
+
+    .shop {
+        width: 1200px;
+    }
+
+    .clients {
+        width: 117.2%;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .about p,
+    .client p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar__text {
+        font-size: 20px;
+    }
+
+    .clients {
+        width: 156.3%;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar__text {
+      display: flex;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 0 30px;
+    }
+  
+    .banner__text {
+      width: auto;
+    }
+  
+    .banner__text h3 {
+      font-size: 25px !important;
+    }
+  
+    .banner__text h1 {
+      font-size: 40px;
+      line-height: 60px;
+      font-weight: 900;
+      margin-top: 20px;
+    }
+  
+    .banner__text p {
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+  
+    .navbar__ul {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .navbar__ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding: 0 10px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+  
+    .col-3,
+    .col-4,
+    .col-6 {
+      width: 100%;
+    }
+  
+    .client {
+      margin: 20px 0;
+    }
+  
+    .about h1 {
+      font-size: 25px;
+    }
+  
+    .shop h1 {
+      font-size: 25px;
+    }
+  
+    .menu h1 {
+      font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar__ul {
+        display: none;
+    }
+
+    .logo > a > img {
+        width: 450px;
+        margin-top: -10px;
+    }
+
+    .banner {
+        height: 285vh;
+        background-position: top;
+    }
+
+    .banner__text h3 {
+        font-size: 70px !important;
+    }
+
+    .banner__text h1 {
+        font-size: 110px !important;
+        line-height: 1;
+        margin-top: 50px;
+    }
+
+    .banner__text p {
+        font-size: 50px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .btn {
+        font-size: 30px;
+        border-radius: 50px;
+        padding: 30px 70px;
+    }
+
+    .container {
+        margin-top: 1200px;
+    }
+
+    .about,
+    .shop,
+    .client,
+    .menu,
+    .clients {
+        display: none;
+    }
+
+    .prices {
+        width: 282%;
+        margin-top: -1200px;
+    }
+
+    .price {
+        border-bottom: 2px solid black;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .price__img > img {
+        width: 500px;
+    }
+    
+    .price__heading {
+        font-size: 50px;
+        margin-top: 150px;
+        margin-bottom: 80px;
+    }
+
+    .price_rs {
+        margin-top: 80px;
+    }
+
+    .miniNav {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        position: fixed;
+        bottom: 50px;
+        width: 1100px;
+        height: 150px;
+        background-color: white;
+        box-shadow: 0 0 50px rgba(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    .miniNav ul {
+        display: flex;
+        width: 350px;
+    }
+
+    .miniNav ul li {
+        position: relative;
+        list-style: none;
+        width: 70px;
+        height: 70px;
+        z-index: 1;
+    }
+
+    .miniNav ul li a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+    }
+}
